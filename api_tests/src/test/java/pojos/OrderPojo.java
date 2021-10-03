@@ -31,4 +31,12 @@ public class OrderPojo{
 	public String getStatus(){
 		return status;
 	}
+
+	public void setPetId(int petId) {
+		this.petId = petId;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 }
